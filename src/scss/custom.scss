@@ -1,0 +1,25 @@
+// Custom.scss
+
+// Include any default variable overrides here (though functions won't be available)
+
+// Colours
+// Modify existing colours here
+$primary: purple;
+
+$theme-colors: (
+    "primary": $primary
+);
+    
+// Add custom colours here
+$custom-colors: (
+    "custom-pink": pink
+);
+        
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+// Fonts
+$font-family-sans-serif:      system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
