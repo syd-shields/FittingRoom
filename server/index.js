@@ -5,7 +5,6 @@ const dotenv = require('dotenv');
 const mongoose = require('mongoose');
 
 dotenv.config();
-
 app.use(express.json())
 
 mongoose.connect(process.env.MONGO_URI, {
@@ -16,4 +15,4 @@ mongoose.connect(process.env.MONGO_URI, {
 const PORT = process.env.PORT || 8000
 app.listen(PORT, () => {
     console.log("listening on port" + PORT)
-});
+}); 
