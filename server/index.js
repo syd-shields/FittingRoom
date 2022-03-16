@@ -1,5 +1,14 @@
 const express = require('express');
-const functions = require('firebase-functions');
-const admin = require('firebase-admin');
-
 const app = express();
+
+const dotenv = require('dotenv');
+const mongoose = require('mongoose');
+
+dotenv.config();
+
+app.use(express.json())
+
+const PORT = process.env.PORT || 8000
+app.listen(PORT, () => {
+    console.log("listening on port" + PORT)
+});
