@@ -18,12 +18,11 @@ async function connect() {
 
 var conn = await connect();
 
-app.post("/api/signup", async (req, res) => {
+app.post("/api/newsletter", async (req, res) => {
     const email = req.body.email;
     const businessName = req.body.businessName;
     const phoneNumber = req.body.phoneNumber;
-    const password = req.body.password;
-    conn.collection('users').insertOne({ email: email, businessname: businessName, password: password, phoneNumber: phoneNumber }, (err, result) => {
+    conn.collection('users').insertOne({ email: email, businessname: businessName, phoneNumber: phoneNumber }, (err, result) => {
         console.log(result)
     })
 })
