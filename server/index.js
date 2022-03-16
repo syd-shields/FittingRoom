@@ -20,11 +20,15 @@ async function connect() {
 var conn = await connect();
 
 app.post("/api/signup", async (req, res) => {
-    const email = req.body.email;
-    const businessName = req.body.businessName;
-    conn.collection('users').insertOne({ email: email, businessname: businessName }, (err, result) => {
-        res.json(result)
-    })
+    try {
+        const email = req.body.email;
+        const businessName = req.body.businessName;
+        const phoneNumber = req.body.phoneNumber;
+        conn.collection('users').insertOne({ email: email, businessName: businessName, phoneNumber: phoneNumber})
+    } catch (err) {
+        res.status(500).json(err)
+    }
+    
 })
 const PORT = process.env.PORT || 8000
 app.listen(PORT, () => {
