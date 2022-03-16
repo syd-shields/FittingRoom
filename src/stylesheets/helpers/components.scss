@@ -1,0 +1,14 @@
+@use 'sass:list';
+@import 'base';
+
+li {
+    list-style-type: none;
+}
+
+/* links and buttons */
+
+a, a:visited, a:hover {
+    text-decoration: none;
+}
+
+/* forms */

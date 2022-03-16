@@ -1,0 +1,13 @@
+@import 'base';
+
+main {
+    background: $bg;
+}
+
+.hero {
+    background: $primary;
+}
+
+.container {
+    padding: $bigSpacer;
+}

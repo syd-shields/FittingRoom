@@ -1,0 +1,9 @@
+@use 'sass:list';
+@import 'base';
+
+@for $i from 1 through 4 {
+    h#{$i} {
+        font-family: $font-heading;
+        font-size: list.nth($font-sizes, $i);
+    }
+}

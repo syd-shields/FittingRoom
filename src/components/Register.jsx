@@ -2,7 +2,7 @@ import React from 'react'
 
 const Register = () => {
     return (
-        <div>
+        <section className="h-100 bg-secondary">
             <h1>Register To Try Our Product</h1>
             <div className="register">
                 <label for="email">Enter Email:</label>
@@ -20,7 +20,7 @@ const Register = () => {
                 <input type="submit" className="registerBtn" value="Create Account" />
 
             </div>
-        </div>
+        </section>
     )
 }
 
