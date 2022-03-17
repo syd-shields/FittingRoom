@@ -102,6 +102,11 @@ a, a:visited {
   color: inherit;
 }
 
+a:hover {
+  color: rgba(242, 242, 242, 0.8);
+  transition: color 0.3s ease-in;
+}
+
 .modal-screen {
   position: absolute;
   width: 100%;
@@ -112,20 +117,24 @@ a, a:visited {
 
 /* forms */
 form {
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 input {
+  font-size: 24px;
+  font-weight: 300;
   background: lightgray;
   border: 1px solid gray;
   border-radius: 5px;
 }
 
 button {
+  font-size: 24px;
+  font-weight: 300 !important;
   background: #e09f3e;
   border: none;
   border-radius: 5px;
-  padding: 5px;
+  padding: 10px;
 }
 
 button:hover {
@@ -136,6 +145,12 @@ button:hover {
 
 .btn-link {
   background: none;
+  font-size: 18px;
+}
+
+.btn-link:hover {
+  transform: translateX(5px);
+  transition: transform 0.3s ease-in-out;
 }
 
 .close-btn:hover {
@@ -247,17 +262,17 @@ h1 {
 
 h2 {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  font-size: 36px;
+  font-size: 48px;
 }
 
 h3 {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  font-size: 24px;
+  font-size: 36px;
 }
 
 h4 {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  font-size: 18px;
+  font-size: 24px;
 }
 
 .text-primary {
@@ -288,12 +303,23 @@ h4 {
   color: #000;
 }
 
+h2 {
+  max-width: 768px;
+}
+
 .text-right {
   text-align: right;
 }
 
 p {
+  font-weight: 300;
+  font-size: 24px;
   max-width: max-content;
+}
+
+.big-text {
+  font-size: 96px;
+  font-weight: bold;
 }
 
 .bg-primary {
