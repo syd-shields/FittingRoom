@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className='bg-tertiary flex-row justify-between'>
+        <footer className='bg-tertiary flex-row justify-between p-3'>
             <div>
 
             <h3>E-Stylist</h3>

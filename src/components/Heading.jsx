@@ -2,7 +2,7 @@ import React from 'react'
 
 const Heading = () => {
     return (
-        <section className="h-100 bg-primary flex-column justify-between">
+        <section className="h-100 bg-primary p-3 flex-column justify-between">
             <nav className="flex-row justify-between">
                 <h3>
                 E-Stylist
