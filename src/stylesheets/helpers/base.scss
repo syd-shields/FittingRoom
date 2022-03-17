@@ -1,17 +1,20 @@
 @import url(https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,400;0,700;1,400;1,700&display=swap);
 
 // colours
-$yellow: #e09f3e;
-$white: #f2f2f2;
+$white: #fff;
 $dark: #000;
-$purple: #694a68;
-$lightPurple: #80597e;
-$gray-100: lightgray;
-$gray-200: gray;
+$blueYonder: #64749D;
+$grullo: #BEA08B;
+$paleSilver: #D9C9BC;
+$gray-100: #EDEFEC;
+$gray-200: #F3F3F3;
+$gray-300: #CECECE;
+$gray-400: #6D6D6D;
+$gray-500: #8FA5BB;
 
-$primary: $yellow;
-$secondary: $purple;
-$tertiary: $lightPurple;
+$primary: $blueYonder;
+$secondary: $grullo;
+$tertiary: $gray-300;
 $bg: $white;
 $text: $dark;
 
@@ -21,6 +24,8 @@ $colors: (
     'tertiary': $tertiary,
     'gray-100': $gray-100,
     'gray-200': $gray-200,
+    'gray-300': $gray-300,
+    'gray-400': $gray-400,
     'white': $white,
     'dark': $dark
 );
@@ -37,9 +42,10 @@ $smallestSpacer: 5px;
 $smallSpacer: 10px;
 $bigSpacer: 20px;
 $biggerSpacer: 40px;
+$biggestSpacer: 80px;
 
 $margin-padding: ('margin': 'm', 'padding': 'p');
-$spacers: ($zero: $zero, $smallestSpacer: '1', $smallSpacer: '2', $bigSpacer: '3', $biggerSpacer: '4');
+$spacers: ($zero: $zero, $smallestSpacer: '1', $smallSpacer: '2', $bigSpacer: '3', $biggerSpacer: '4', $biggestSpacer: '5');
 $sides: ('': '', '-top': 't', '-bottom': 'b', '-right': 'r', '-left': 'l');
 
 // text

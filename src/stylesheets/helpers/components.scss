@@ -25,7 +25,7 @@ a:hover {
     position: absolute;
     width: 100%;
     top: 0;
-    background: rgba($secondary, .8);
+    background: rgba($gray-400, .8);
     z-index: 999;
 }
 
@@ -38,14 +38,16 @@ input {
     font-size: 24px;
     font-weight: 300;
     background: $gray-100;
-    border: 1px solid $gray-200;
+    border: 1px solid $gray-300;
     border-radius: 5px;
 }
 
 // buttons
 button {
+    -webkit-appearance: button;
     font-size: 24px;
-    font-weight: 300 !important;
+    font-weight: 300;
+    color: $white;
     background: $primary;
     border: none;
     border-radius: 5px;
@@ -64,7 +66,7 @@ button:hover {
 }
 
 .btn-link:hover {
-    transform: translateX(5px);
+    transform: translateX(20px);
     transition: transform 0.3s ease-in-out;
 }
 

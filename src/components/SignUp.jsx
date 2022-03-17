@@ -10,7 +10,7 @@ const SignUp = ({ isModalOpen, onModalChange }) => {
         <section className={`h-100 modal-screen align-center justify-center ${isModalOpen ? 'flex-row' : 'd-none'}`}>
             <form id="signUp" className="flex-column bg-white w-50 p-4">
             <div className="flex-row justify-between align-center mb-2">
-                    <h3>Sign up for Early Access!</h3><span className="close-btn ml-2" onClick={handleModalChange}>×</span>
+                    <h3 className="text-gray-400">Sign up for Early Access!</h3><span className="close-btn ml-2" onClick={handleModalChange}>×</span>
             </div>
                 <label for="email" className="d-none">Email</label>
                 <input id="email" name="email" type="email" placeholder="Email" className="mt-2 p-2" required />

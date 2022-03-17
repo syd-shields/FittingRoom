@@ -4,27 +4,35 @@
 @import url(https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,400;0,700;1,400;1,700&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,400;0,700;1,400;1,700&display=swap);
 .bg-primary {
-  background: #e09f3e;
+  background: #64749D;
 }
 
 .bg-secondary {
-  background: #694a68;
+  background: #BEA08B;
 }
 
 .bg-tertiary {
-  background: #80597e;
+  background: #CECECE;
 }
 
 .bg-gray-100 {
-  background: lightgray;
+  background: #EDEFEC;
 }
 
 .bg-gray-200 {
-  background: gray;
+  background: #F3F3F3;
+}
+
+.bg-gray-300 {
+  background: #CECECE;
+}
+
+.bg-gray-400 {
+  background: #6D6D6D;
 }
 
 .bg-white {
-  background: #f2f2f2;
+  background: #fff;
 }
 
 .bg-dark {
@@ -32,7 +40,7 @@
 }
 
 body {
-  background: #f2f2f2;
+  background: #fff;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
@@ -47,27 +55,35 @@ body {
 }
 
 .bg-primary {
-  background: #e09f3e;
+  background: #64749D;
 }
 
 .bg-secondary {
-  background: #694a68;
+  background: #BEA08B;
 }
 
 .bg-tertiary {
-  background: #80597e;
+  background: #CECECE;
 }
 
 .bg-gray-100 {
-  background: lightgray;
+  background: #EDEFEC;
 }
 
 .bg-gray-200 {
-  background: gray;
+  background: #F3F3F3;
+}
+
+.bg-gray-300 {
+  background: #CECECE;
+}
+
+.bg-gray-400 {
+  background: #6D6D6D;
 }
 
 .bg-white {
-  background: #f2f2f2;
+  background: #fff;
 }
 
 .bg-dark {
@@ -75,7 +91,7 @@ body {
 }
 
 body {
-  background: #f2f2f2;
+  background: #fff;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
@@ -103,7 +119,7 @@ a, a:visited {
 }
 
 a:hover {
-  color: rgba(242, 242, 242, 0.8);
+  color: rgba(255, 255, 255, 0.8);
   transition: color 0.3s ease-in;
 }
 
@@ -111,7 +127,7 @@ a:hover {
   position: absolute;
   width: 100%;
   top: 0;
-  background: rgba(105, 74, 104, 0.8);
+  background: rgba(109, 109, 109, 0.8);
   z-index: 999;
 }
 
@@ -123,22 +139,24 @@ form {
 input {
   font-size: 24px;
   font-weight: 300;
-  background: lightgray;
-  border: 1px solid gray;
+  background: #EDEFEC;
+  border: 1px solid #CECECE;
   border-radius: 5px;
 }
 
 button {
+  -webkit-appearance: button;
   font-size: 24px;
-  font-weight: 300 !important;
-  background: #e09f3e;
+  font-weight: 300;
+  color: #fff;
+  background: #64749D;
   border: none;
   border-radius: 5px;
   padding: 10px;
 }
 
 button:hover {
-  background: rgba(224, 159, 62, 0.8);
+  background: rgba(100, 116, 157, 0.8);
   transition: background-color 0.3s ease-in;
   cursor: pointer;
 }
@@ -149,7 +167,7 @@ button:hover {
 }
 
 .btn-link:hover {
-  transform: translateX(5px);
+  transform: translateX(20px);
   transition: transform 0.3s ease-in-out;
 }
 
@@ -158,27 +176,35 @@ button:hover {
 }
 
 .bg-primary {
-  background: #e09f3e;
+  background: #64749D;
 }
 
 .bg-secondary {
-  background: #694a68;
+  background: #BEA08B;
 }
 
 .bg-tertiary {
-  background: #80597e;
+  background: #CECECE;
 }
 
 .bg-gray-100 {
-  background: lightgray;
+  background: #EDEFEC;
 }
 
 .bg-gray-200 {
-  background: gray;
+  background: #F3F3F3;
+}
+
+.bg-gray-300 {
+  background: #CECECE;
+}
+
+.bg-gray-400 {
+  background: #6D6D6D;
 }
 
 .bg-white {
-  background: #f2f2f2;
+  background: #fff;
 }
 
 .bg-dark {
@@ -186,7 +212,7 @@ button:hover {
 }
 
 body {
-  background: #f2f2f2;
+  background: #fff;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
@@ -201,11 +227,11 @@ body {
 }
 
 main {
-  background: #f2f2f2;
+  background: #fff;
 }
 
 .hero {
-  background: #e09f3e;
+  background: #64749D;
 }
 
 .container {
@@ -213,27 +239,35 @@ main {
 }
 
 .bg-primary {
-  background: #e09f3e;
+  background: #64749D;
 }
 
 .bg-secondary {
-  background: #694a68;
+  background: #BEA08B;
 }
 
 .bg-tertiary {
-  background: #80597e;
+  background: #CECECE;
 }
 
 .bg-gray-100 {
-  background: lightgray;
+  background: #EDEFEC;
 }
 
 .bg-gray-200 {
-  background: gray;
+  background: #F3F3F3;
+}
+
+.bg-gray-300 {
+  background: #CECECE;
+}
+
+.bg-gray-400 {
+  background: #6D6D6D;
 }
 
 .bg-white {
-  background: #f2f2f2;
+  background: #fff;
 }
 
 .bg-dark {
@@ -241,7 +275,7 @@ main {
 }
 
 body {
-  background: #f2f2f2;
+  background: #fff;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
@@ -276,27 +310,35 @@ h4 {
 }
 
 .text-primary {
-  color: #e09f3e;
+  color: #64749D;
 }
 
 .text-secondary {
-  color: #694a68;
+  color: #BEA08B;
 }
 
 .text-tertiary {
-  color: #80597e;
+  color: #CECECE;
 }
 
 .text-gray-100 {
-  color: lightgray;
+  color: #EDEFEC;
 }
 
 .text-gray-200 {
-  color: gray;
+  color: #F3F3F3;
+}
+
+.text-gray-300 {
+  color: #CECECE;
+}
+
+.text-gray-400 {
+  color: #6D6D6D;
 }
 
 .text-white {
-  color: #f2f2f2;
+  color: #fff;
 }
 
 .text-dark {
@@ -305,6 +347,11 @@ h4 {
 
 h2 {
   max-width: 768px;
+  font-weight: 400;
+}
+
+h3 {
+  font-weight: 500;
 }
 
 .text-right {
@@ -323,27 +370,35 @@ p {
 }
 
 .bg-primary {
-  background: #e09f3e;
+  background: #64749D;
 }
 
 .bg-secondary {
-  background: #694a68;
+  background: #BEA08B;
 }
 
 .bg-tertiary {
-  background: #80597e;
+  background: #CECECE;
 }
 
 .bg-gray-100 {
-  background: lightgray;
+  background: #EDEFEC;
 }
 
 .bg-gray-200 {
-  background: gray;
+  background: #F3F3F3;
+}
+
+.bg-gray-300 {
+  background: #CECECE;
+}
+
+.bg-gray-400 {
+  background: #6D6D6D;
 }
 
 .bg-white {
-  background: #f2f2f2;
+  background: #fff;
 }
 
 .bg-dark {
@@ -351,7 +406,7 @@ p {
 }
 
 body {
-  background: #f2f2f2;
+  background: #fff;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
@@ -390,6 +445,14 @@ body {
 
 .align-content-center {
   align-content: center;
+}
+
+.align-content-stretch {
+  align-content: stretch;
+}
+
+.align-stretch {
+  align-items: stretch;
 }
 
 .justify-between {
@@ -556,6 +619,26 @@ body {
   margin-left: 40px;
 }
 
+.m-5 {
+  margin: 80px;
+}
+
+.mt-5 {
+  margin-top: 80px;
+}
+
+.mb-5 {
+  margin-bottom: 80px;
+}
+
+.mr-5 {
+  margin-right: 80px;
+}
+
+.ml-5 {
+  margin-left: 80px;
+}
+
 .p-0 {
   padding: 0;
 }
@@ -654,6 +737,26 @@ body {
 
 .pl-4 {
   padding-left: 40px;
+}
+
+.p-5 {
+  padding: 80px;
+}
+
+.pt-5 {
+  padding-top: 80px;
+}
+
+.pb-5 {
+  padding-bottom: 80px;
+}
+
+.pr-5 {
+  padding-right: 80px;
+}
+
+.pl-5 {
+  padding-left: 80px;
 }
 
 .box-shadow {

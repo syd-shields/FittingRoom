@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
     return (
         <>
-            <section className="h-100 bg-white p-4 flex-column justify-center">
+            <section className="h-100 bg-white p-5 flex-column justify-center">
                 <h3>Who are we?</h3>
                 <div className="flex-row justify-between mt-3">
                 <p className="mw-60">
