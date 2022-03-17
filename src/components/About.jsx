@@ -12,7 +12,7 @@ const About = () => {
                     In eu tortor placerat, lobortis orci vitae, pellentesque ex. Nunc mollis, mauris a lacinia faucibus, justo massa condimentum dui, interdum fermentum risus eros id eros. Etiam in tellus lacus. 
                 </p>
                 <div>
-                    <img src="https://picsum.photos/300/500" />
+                    <img src="https://picsum.photos/300/500" alt="description will go here" />
                 </div>
                 </div>
             </section>
