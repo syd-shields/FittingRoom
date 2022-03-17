@@ -1,6 +1,11 @@
-import React from 'react'
+import React, { useCallback } from 'react'
 
-const Heading = () => {
+const Heading = ({ isModalOpen, onModalChange }) => {
+
+    const handleModalChange = useCallback(e => {
+        onModalChange(true)
+    }, [onModalChange]);
+
     return (
         <section className="h-100 bg-primary p-4 flex-column justify-between text-white">
             <nav className="flex-row justify-between">
@@ -18,7 +23,9 @@ const Heading = () => {
                 <h2>Give your customers beautiful stylist-curated outfits from home!</h2>
             </div>
             <h4>
-                Sign up for early access ➞
+                <button className="btn-link text-white" onClick={handleModalChange}>
+                    Sign up for early access ➞
+                </button>
             </h4>
 
         </section>

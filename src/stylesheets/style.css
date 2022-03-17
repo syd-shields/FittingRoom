@@ -134,6 +134,14 @@ button:hover {
   cursor: pointer;
 }
 
+.btn-link {
+  background: none;
+}
+
+.close-btn:hover {
+  cursor: pointer;
+}
+
 .bg-primary {
   background: #e09f3e;
 }

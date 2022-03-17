@@ -1,15 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Heading from '../components/Heading'
-import Register from '../components/SignUp'
+import SignUp from '../components/SignUp'
 import About from '../components/About'
 import Info from '../components/Info'
 import Footer from '../components/Footer'
 
 const LandingPage = () => {
+    const modalState = false;
+    const [modalOpen, setModalOpen] = useState(modalState);
+
     return (
         <>
-            <Heading className="vh-100 bg-primary" />
-            <Register className="vh-100 bg-secondary" />
+            <Heading isModalOpen={modalOpen} onModalChange={setModalOpen} className="vh-100 bg-primary" />
+            <SignUp isModalOpen={modalOpen} onModalChange={setModalOpen} className="vh-100 bg-secondary" />
             <About />
             <Info />
             <Footer />

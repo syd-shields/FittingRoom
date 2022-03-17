@@ -1,11 +1,16 @@
-import React from 'react'
+import React, { useCallback } from 'react'
 
-const SignUp = () => {
+const SignUp = ({ isModalOpen, onModalChange }) => {
+
+    const handleModalChange = useCallback(e => {
+        onModalChange(false)
+    }, [onModalChange]);
+
     return (
-        <section className="h-100 modal-screen flex-row align-center justify-center">
+        <section className={`h-100 modal-screen align-center justify-center ${isModalOpen ? 'flex-row' : 'd-none'}`}>
             <form id="signUp" className="flex-column bg-white w-50 p-3">
             <div className="flex-row justify-between align-center mb-2">
-                <h3>Sign up for Early Access!</h3><span className="ml-2">×</span>
+                    <h3>Sign up for Early Access!</h3><span className="close-btn ml-2" onClick={handleModalChange}>×</span>
             </div>
                 <label for="email" className="d-none">Email</label>
                 <input id="email" name="email" type="email" placeholder="Email" className="mt-2 p-1" required />
