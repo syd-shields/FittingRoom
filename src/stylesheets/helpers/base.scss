@@ -18,7 +18,7 @@ $text: $dark;
 $colors: (
     'primary': $primary, 
     'secondary': $secondary,
-    'teritary': $tertiary,
+    'tertiary': $tertiary,
     'gray-100': $gray-100,
     'gray-200': $gray-200,
     'white': $white,
@@ -42,9 +42,9 @@ $spacers: ($zero: $zero, $smallestSpacer: '1', $smallSpacer: '2', $bigSpacer: '3
 $sides: ('': '', '-top': 't', '-bottom': 'b', '-right': 'r', '-left': 'l');
 
 // text
-$font-body: Helvetica, Arial, sans-serif;
-$font-heading: 'Averia Serif Libre', cursive;
-$font-sizes: (48, 36, 24, 12, 10);
+$font-body: 'Open Sans', Helvetica, Arial, sans-serif;
+$font-heading: 'Open Sans', Helvetica, Arial, sans-serif;
+$font-sizes: (64, 36, 24, 18);
 
 $box-shadow: 0 5px 10px 3px rgba(0, 0, 0, 0.1);
 

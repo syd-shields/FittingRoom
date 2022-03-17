@@ -11,7 +11,7 @@
   background: #694a68;
 }
 
-.bg-teritary {
+.bg-tertiary {
   background: #80597e;
 }
 
@@ -33,7 +33,7 @@
 
 body {
   background: #f2f2f2;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 * {
@@ -54,7 +54,7 @@ body {
   background: #694a68;
 }
 
-.bg-teritary {
+.bg-tertiary {
   background: #80597e;
 }
 
@@ -76,7 +76,7 @@ body {
 
 body {
   background: #f2f2f2;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 * {
@@ -107,7 +107,7 @@ a, a:visited, a:hover {
   background: #694a68;
 }
 
-.bg-teritary {
+.bg-tertiary {
   background: #80597e;
 }
 
@@ -129,7 +129,7 @@ a, a:visited, a:hover {
 
 body {
   background: #f2f2f2;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 * {
@@ -162,7 +162,7 @@ main {
   background: #694a68;
 }
 
-.bg-teritary {
+.bg-tertiary {
   background: #80597e;
 }
 
@@ -184,7 +184,7 @@ main {
 
 body {
   background: #f2f2f2;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 * {
@@ -198,23 +198,23 @@ body {
 }
 
 h1 {
-  font-family: "Averia Serif Libre", cursive;
-  font-size: 48;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 64px;
 }
 
 h2 {
-  font-family: "Averia Serif Libre", cursive;
-  font-size: 36;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 36px;
 }
 
 h3 {
-  font-family: "Averia Serif Libre", cursive;
-  font-size: 24;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 24px;
 }
 
 h4 {
-  font-family: "Averia Serif Libre", cursive;
-  font-size: 12;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 18px;
 }
 
 .bg-primary {
@@ -225,7 +225,7 @@ h4 {
   background: #694a68;
 }
 
-.bg-teritary {
+.bg-tertiary {
   background: #80597e;
 }
 
@@ -247,7 +247,7 @@ h4 {
 
 body {
   background: #f2f2f2;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 * {
