@@ -11,4 +11,40 @@ a, a:visited, a:hover {
     text-decoration: none;
 }
 
+a, a:visited {
+    color: inherit;
+}
+
+// modal screen
+.modal-screen {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    background: rgba($secondary, .8);
+    z-index: 999;
+}
+
 /* forms */
+form {
+    border-radius: 5px;
+}
+
+input {
+    background: $gray-100;
+    border: 1px solid $gray-200;
+    border-radius: 5px;
+}
+
+// buttons
+button {
+    background: $primary;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+button:hover {
+    background: rgba($primary, 0.8);
+    transition: background-color 0.3s ease-in;
+    cursor: pointer;
+}

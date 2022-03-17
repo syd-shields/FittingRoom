@@ -19,8 +19,20 @@
     align-items: center;
 }
 
+.align-start {
+    align-items: start;
+}
+
+.align-content-center {
+    align-content: center;
+}
+
 .justify-between {
     justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
 }
 
 .align-start {
@@ -34,8 +46,41 @@
     display: inline;
 }
 
+.mw-50 {
+    max-width: 50%;
+}
+
+.mw-60 {
+    max-width: 60%;
+}
+
+
 .mw-75 {
     max-width: 75%;
+}
+
+.mw-85 {
+    max-width: 85%;
+}
+
+.mw-100 {
+    max-width: 100%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.w-100 {
+    width: 100%;
 }
 
 .centered {

@@ -36,9 +36,10 @@ $zero: 0;
 $smallestSpacer: 5px;
 $smallSpacer: 10px;
 $bigSpacer: 20px;
+$biggerSpacer: 40px;
 
 $margin-padding: ('margin': 'm', 'padding': 'p');
-$spacers: ($zero: $zero, $smallestSpacer: '1', $smallSpacer: '2', $bigSpacer: '3');
+$spacers: ($zero: $zero, $smallestSpacer: '1', $smallSpacer: '2', $bigSpacer: '3', $biggerSpacer: '4');
 $sides: ('': '', '-top': 't', '-bottom': 'b', '-right': 'r', '-left': 'l');
 
 // text

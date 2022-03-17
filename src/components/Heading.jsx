@@ -2,7 +2,7 @@ import React from 'react'
 
 const Heading = () => {
     return (
-        <section className="h-100 bg-primary p-3 flex-column justify-between">
+        <section className="h-100 bg-primary p-4 flex-column justify-between text-white">
             <nav className="flex-row justify-between">
                 <h3>
                 E-Stylist
@@ -15,7 +15,7 @@ const Heading = () => {
             </nav>
             <div>
                 <h1>E-Stylist</h1>
-                <h2>Discover beautiful stylist-curated outfits at your fingertips!</h2>
+                <h2>Give your customers beautiful stylist-curated outfits from home!</h2>
             </div>
             <h4>
                 Sign up for early access ➞

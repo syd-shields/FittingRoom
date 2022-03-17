@@ -8,3 +8,16 @@
     }
 }
 
+@each $color-name, $color in $colors {
+    .text-#{$color-name} {
+        color: $color;
+    }
+}
+
+.text-right {
+    text-align: right;
+}
+
+p {
+    max-width: max-content;
+}
