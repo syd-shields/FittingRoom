@@ -6,8 +6,8 @@ router.post("/signup", async (req, res) => {
     try {
         const newUser = new User({
             email: req.body.email,
-            businessName: req.body.businessName,
-            phoneNumber: req.body.phoneNumber,
+            organization: req.body.organization,
+            phoneNo: req.body.phoneNo,
         })
         const user = await newUser.save();
         res.status(200).json(user);
