@@ -99,6 +99,11 @@
     min-height: 100%;
 }
 
+.z-1 {
+    position: absolute;
+    z-index: 1;
+}
+
 .mw-100-sm {
      @media screen and (max-width: $small) {
         max-width: 100%;

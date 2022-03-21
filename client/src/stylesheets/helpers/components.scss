@@ -78,5 +78,13 @@ button:hover {
 .about-img {
     height: 500px;
     width: 300px;
+}
+
+.cover {
+    object-fit: cover;
+}
+
+.hero-img {
+    background-size: 100% 100%;
     object-fit: cover;
 }

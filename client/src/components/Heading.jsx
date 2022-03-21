@@ -1,4 +1,5 @@
 import React, { useCallback } from 'react'
+import Background from '../assets/imgs/fashion-1.jpeg';
 
 const Heading = ({ isModalOpen, onModalChange }) => {
 
@@ -7,7 +8,9 @@ const Heading = ({ isModalOpen, onModalChange }) => {
     }, [onModalChange]);
 
     return (
-        <section className="h-100 bg-primary p-5 flex-column justify-between text-white">
+        <section className="h-100 p-5 hero-img flex-column justify-between text-white" style={{ backgroundImage: `url(${Background})` }}>
+            {/* <img className='hero-img cover' src={require('../assets/imgs/fashion-1.jpeg')} alt='Clothing Rack' /> */}
+
             <nav className="flex-row justify-between align-center">
                 <h3>
                 E-STYLIST

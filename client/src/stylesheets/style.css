@@ -196,6 +196,14 @@ button:hover {
 .about-img {
   height: 500px;
   width: 300px;
+}
+
+.cover {
+  object-fit: cover;
+}
+
+.hero-img {
+  background-size: 100% 100%;
   object-fit: cover;
 }
 
@@ -574,6 +582,11 @@ body {
 
 .h-100 {
   min-height: 100%;
+}
+
+.z-1 {
+  position: absolute;
+  z-index: 1;
 }
 
 @media screen and (max-width: 576px) {
