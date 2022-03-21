@@ -7,12 +7,12 @@ const About = () => {
                 <h3 className='text-center-sm'>Who are we?</h3>
                 <div className="flex-row justify-between justify-center-sm mt-3">
                 <p className="mw-60 mw-100-sm text-center-sm">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce libero risus, vehicula ut tellus quis, tincidunt luctus ligula. Nunc non lectus vel ante placerat bibendum. 
-                    In vehicula, mauris at hendrerit hendrerit, urna nunc lobortis risus, at suscipit leo velit eget odio. 
-                    In eu tortor placerat, lobortis orci vitae, pellentesque ex. Nunc mollis, mauris a lacinia faucibus, justo massa condimentum dui, interdum fermentum risus eros id eros. Etiam in tellus lacus. 
+                    We're here to bring the personal connection back to online retail.
+                    <br /> <br />
+                    We are a team of expert stylists and fashion curators ready to bring personal consultation to the digital age. Our stylists have worked with a diverse group of clients, of all body types and personal styles. We'll match our stylists to your store's unique needs so that you can start providing your customers with personalized, real-time fashion advice while shopping online.
                 </p>
                 <div>
-                    <img src="https://picsum.photos/300/500" className='d-none-sm'/>
+                    <img src={require('../assets/imgs/fashion-2.jpeg')} className='about-img cover d-none-sm' alt="Stylist showing clothing on video call"/>
                 </div>
                 </div>
             </section>
