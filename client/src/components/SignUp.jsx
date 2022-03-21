@@ -31,8 +31,8 @@ const SignUp = ({ isModalOpen, onModalChange }) => {
             <form id="signUp" className='bg-white w-60 p-4'  onSubmit={(e) => 
                 {
                 e.preventDefault();
-                setSignedUp(true);
                 signupHandler()
+                setSignedUp(true);
               }}>
             <div className="flex-row justify-between align-center mb-2">
                 <h3 className="text-gray-400 mw-85">{` ${signedUp ? 'Thanks for signing up to receive updates!' : 'Sign up for Early Access!'}`}</h3><span className="close-btn ml-2" onClick={handleModalChange}>×</span>
