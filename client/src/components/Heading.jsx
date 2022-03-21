@@ -8,7 +8,7 @@ const Heading = ({ isModalOpen, onModalChange }) => {
 
     return (
         <section className="h-100 bg-primary p-5 flex-column justify-between text-white">
-            <nav className="flex-row justify-between">
+            <nav className="flex-row justify-between align-center">
                 <h3>
                 E-STYLIST
                 </h3>
