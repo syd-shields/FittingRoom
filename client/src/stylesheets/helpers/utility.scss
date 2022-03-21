@@ -99,6 +99,24 @@
     min-height: 100%;
 }
 
+.mw-100-sm {
+     @media screen and (max-width: $small) {
+        max-width: 100%;
+    }
+}
+
+.justify-center-sm {
+    @media screen and (max-width: $small) {
+        justify-content: center;
+    }
+}
+
+.align-center-sm {
+    @media screen and (max-width: $small) {
+        align-items: center;
+    }
+}
+
 // margin + padding utils
 @each $attr, $atrr-label in $margin-padding {
     @each $spacer, $spacer-label in $spacers {
@@ -116,4 +134,10 @@
 
 .d-none {
     display: none;
+}
+
+.d-none-sm {
+    @media screen and (max-width: $small) {
+        display: none;
+    }
 }

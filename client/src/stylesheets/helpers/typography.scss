@@ -27,6 +27,12 @@ h3 {
     text-align: right;
 }
 
+.text-center-sm {
+    @media screen and (max-width: $small) {
+        text-align: center;
+    }
+}
+
 p {
     font-weight: 300;
     font-size: 1rem;
