@@ -15,7 +15,7 @@ const SignUp = ({ isModalOpen, onModalChange }) => {
     
     const signupHandler = async () => {
         try{
-        const res =  await axios.post('http://localhost:8000/api/v1/signup', {
+        const res =  await axios.post('/api/v1/signup', {
             email: email,
             businessName: businessName,
             phoneNumber: phoneNumber
