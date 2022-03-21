@@ -10,8 +10,7 @@ const Info = () => {
             <div className="flex-row align-center justify-between justify-center-sm mb-4 w-100">
                 <span className="text-primary big-text">01</span>
                 <p className="mw-85 text-center-sm">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce libero risus, vehicula ut tellus quis, tincidunt luctus ligula. Nunc non lectus vel ante placerat bibendum.
-                    In vehicula, mauris at hendrerit hendrerit, urna nunc lobortis risus, at suscipit leo velit eget odio.
+                    Sign up so that we can chat with you! We'll assess the needs of your store, and match you with stylists who will become experts in your catalogue and customers.
                 </p>
             </div>
             
