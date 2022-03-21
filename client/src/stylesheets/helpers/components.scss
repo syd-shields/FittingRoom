@@ -35,7 +35,7 @@ form {
 }
 
 input {
-    font-size: 24px;
+    font-size: 1rem;
     font-weight: 300;
     background: $gray-100;
     border: 1px solid $gray-300;
@@ -45,7 +45,7 @@ input {
 // buttons
 button {
     -webkit-appearance: button;
-    font-size: 24px;
+    font-size: 1rem;
     font-weight: 300;
     color: $white;
     background: $primary;
@@ -62,7 +62,7 @@ button:hover {
 
 .btn-link {
     background: none;
-    font-size: 18px;
+    font-size: 0.75em;
 }
 
 .btn-link:hover {

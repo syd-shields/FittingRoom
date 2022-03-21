@@ -7,9 +7,11 @@ const SignUp = ({ isModalOpen, onModalChange }) => {
         onModalChange(false)
     }, [onModalChange]);
 
-    const [email, setEmail] = useState('')
-    const [businessName, setBusinessName] = useState('')
-    const [phoneNumber, setPhoneNumber] = useState('')
+    const [email, setEmail] = useState('');
+    const [businessName, setBusinessName] = useState('');
+    const [phoneNumber, setPhoneNumber] = useState('');
+
+    const [signedUp, setSignedUp] = useState(false);
     
     const signupHandler = async () => {
         try{
@@ -26,14 +28,18 @@ const SignUp = ({ isModalOpen, onModalChange }) => {
 
     return (
         <section className={`h-100 modal-screen align-center justify-center ${isModalOpen ? 'flex-row' : 'd-none'}`}>
-            <form id="signUp" className="flex-column bg-white w-50 p-4"  onSubmit={(e) => 
+            <form id="signUp" className='bg-white w-60 p-4'  onSubmit={(e) => 
                 {
                 e.preventDefault();
+                setSignedUp(true);
                 signupHandler()
               }}>
             <div className="flex-row justify-between align-center mb-2">
-                    <h3 className="text-gray-400">Sign up for Early Access!</h3><span className="close-btn ml-2" onClick={handleModalChange}>×</span>
+                <h3 className="text-gray-400 mw-85">{` ${signedUp ? 'Thanks for signing up to receive updates!' : 'Sign up for Early Access!'}`}</h3><span className="close-btn ml-2" onClick={handleModalChange}>×</span>
             </div>
+
+            <div className={`${signedUp ? 'd-none' : 'flex-column'}`}>
+
                 <label for="email" className="d-none">Email</label>
                 <input id="email" name="email" type="email" placeholder="Email" className="mt-2 p-2" onChange={(e) => setEmail(e.target.value)} required />
                 <label for="organization" className="d-none">Organization</label>
@@ -43,6 +49,7 @@ const SignUp = ({ isModalOpen, onModalChange }) => {
                 <button type="submit" id="signUpBtn" className="mt-2">
                     Yes, I'd like to receive updates!
                 </button>
+            </div>
 
             </form>
         </section>

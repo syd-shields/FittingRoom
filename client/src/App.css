@@ -1,16 +1,3 @@
-.App {
-  text-align: center;
-  height: 100vh;
-}
-
-.page {
-  min-height: 100vh !important;
-}
-
-.vh-100 {
-  height: 100vh !important;
-}
-
 .register{
   background-color: aliceblue;
   color: black;

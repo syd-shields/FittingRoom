@@ -38,11 +38,11 @@ $colors: (
 
 // spacing
 $zero: 0;
-$smallestSpacer: 5px;
-$smallSpacer: 10px;
-$bigSpacer: 20px;
-$biggerSpacer: 40px;
-$biggestSpacer: 80px;
+$smallestSpacer: 0.3rem;
+$smallSpacer: 0.75rem;
+$bigSpacer: 1rem;
+$biggerSpacer: 2rem;
+$biggestSpacer: 3rem;
 
 $margin-padding: ('margin': 'm', 'padding': 'p');
 $spacers: ($zero: $zero, $smallestSpacer: '1', $smallSpacer: '2', $bigSpacer: '3', $biggerSpacer: '4', $biggestSpacer: '5');
@@ -51,20 +51,33 @@ $sides: ('': '', '-top': 't', '-bottom': 'b', '-right': 'r', '-left': 'l');
 // text
 $font-body: 'Open Sans', Helvetica, Arial, sans-serif;
 $font-heading: 'Open Sans', Helvetica, Arial, sans-serif;
-$font-sizes: (64, 48, 36, 24);
+$font-sizes: (3, 2, 1.5, 1);
+// $font-sizes: (64, 48, 36, 24);
 
 $box-shadow: 0 5px 10px 3px rgba(0, 0, 0, 0.1);
 
-body {
-    background: $bg;
-    font-family: $font-body;
-}
+// breakpoints
+$medium: 768px;
+$small: 576px;
 
 // reset
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    background: $bg;
+    font-family: $font-body;
+}
+
+:root {
+    font-size: 24px;
+    
+    @media screen and (max-width: $small) {
+        font-size: 18px;
+    }
 }
 
 .App {

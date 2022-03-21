@@ -4,7 +4,7 @@
 @for $i from 1 through 4 {
     h#{$i} {
         font-family: $font-heading;
-        font-size: #{list.nth($font-sizes, $i)}px;
+        font-size: #{list.nth($font-sizes, $i)}rem;
     }
 }
 
@@ -27,13 +27,19 @@ h3 {
     text-align: right;
 }
 
+.text-center-sm {
+    @media screen and (max-width: $small) {
+        text-align: center;
+    }
+}
+
 p {
     font-weight: 300;
-    font-size: 24px;
+    font-size: 1rem;
     max-width: max-content;
 }
 
 .big-text {
-    font-size: 96px;
+    font-size: 4rem;
     font-weight: bold;
 }
