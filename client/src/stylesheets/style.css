@@ -193,6 +193,12 @@ button:hover {
   cursor: pointer;
 }
 
+.about-img {
+  height: 500px;
+  width: 300px;
+  object-fit: cover;
+}
+
 .bg-primary {
   background: #64749D;
 }

@@ -12,7 +12,7 @@ const About = () => {
                     In eu tortor placerat, lobortis orci vitae, pellentesque ex. Nunc mollis, mauris a lacinia faucibus, justo massa condimentum dui, interdum fermentum risus eros id eros. Etiam in tellus lacus. 
                 </p>
                 <div>
-                    <img src="https://picsum.photos/300/500" className='d-none-sm'/>
+                    <img src={require('../assets/imgs/fashion-1.jpeg')} className='about-img d-none-sm'/>
                 </div>
                 </div>
             </section>

@@ -20,7 +20,7 @@ const Heading = ({ isModalOpen, onModalChange }) => {
             </nav>
             <div>
                 <h1>E-Stylist</h1>
-                <h2>Give your customers beautiful stylist-curated outfits from home!</h2>
+                <h2>Now your customers can get personal consultations from home!</h2>
             </div>
             <h4>
                 <button className="btn-link text-white" onClick={handleModalChange}>
