@@ -4,8 +4,8 @@ const Footer = () => {
     return (
         <footer className='bg-primary flex-row justify-between align-center p-4 text-white'>
             <div>
-                <h3 className="mb-1"><b>style</b>me</h3>
-                <h4>ⓒ <b>style</b>me 2022</h4>
+                <h3 className="mb-1">style<b>me</b></h3>
+                <h4>ⓒ style<b>me</b> 2022</h4>
             </div>
 
             <ul className="text-right">
