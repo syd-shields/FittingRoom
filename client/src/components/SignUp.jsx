@@ -42,8 +42,8 @@ const SignUp = ({ isModalOpen, onModalChange }) => {
 
                 <label for="email" className="d-none">Email</label>
                 <input id="email" name="email" type="email" placeholder="Email" className="mt-2 p-2" onChange={(e) => setEmail(e.target.value)} required />
-                <label for="organization" className="d-none">Organization</label>
-                <input id="organization" name="organization" type="text" placeholder="Organization" className="mt-2 p-2" onChange={(e) => setBusinessName(e.target.value)} required />
+                <label for="organization" className="d-none">Name</label>
+                <input id="organization" name="organization" type="text" placeholder="Name" className="mt-2 p-2" onChange={(e) => setBusinessName(e.target.value)} required />
                 <label for="phoneNo" className="d-none">Phone Number</label>
                 <input id="phoneNo" name="phoneNo" placeholder="Phone Number" className="mt-2 p-2" onChange={(e) => setPhoneNumber(e.target.value)} required />
                 <button type="submit" id="signUpBtn" className="mt-2">
