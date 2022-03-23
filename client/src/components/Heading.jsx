@@ -21,7 +21,7 @@ const Heading = ({ isModalOpen, onModalChange }) => {
             </nav>
             <div>
                 <h1><span className="unbold">style</span><span className="bolder">me</span></h1>
-                <h2>Now you can get personal style consultations from home!</h2>
+                <h2>Fashion for everyone, delivered everywhere.</h2>
             </div>
             <h4>
                 <button className="btn-link text-white" onClick={handleModalChange}>
