@@ -10,20 +10,20 @@ const Info = () => {
             <div className="flex-row align-center justify-between justify-center-sm mb-4 w-100">
                 <span className="text-primary big-text">01</span>
                 <p className="mw-85 text-center-sm">
-                    Sign up so that we can chat with you! We'll assess the needs of your store, and match you with stylists who will become experts in your catalogue and customers.
+                    Sign up to get early access to <b>style</b>me! You'll be the first to know when we're ready to launch.
                 </p>
             </div>
             
             <div className="flex-row-reverse align-center justify-between justify-center-sm mb-4">
                 <p className="mw-85 text-right text-center-sm">
-                    We provide your store with fashion experts who have experience providing virtual consultations. Not ready to take on new staff? No problem—we'll train your existing sales associates. 
+                    Once we're launched, you can find stylists available in your area. Browse stylist by style and see how stylists are rated.
                 </p>
                 <span className="text-primary big-text">02</span>
             </div>
             <div className="flex-row align-center justify-between justify-center-sm">
                     <span className="text-primary big-text">03</span>
                 <p className="mw-85 text-center-sm">
-                    Customers can shop online and video call our sales associates any time to get real-time, personalized style advice.
+                    Make a virtual or in-person appointment with your stylist. You can shop online and video call our stylists to get real-time, personalized style advice. Then, review your stylist so that others can 
                 </p>
             </div>
             
